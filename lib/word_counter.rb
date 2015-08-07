@@ -19,6 +19,11 @@ class String
           elsif element_array.include?("!")
             element_array.pop()
             element = element_array.join()
+          
+          elsif element_array.include?(".")
+            element_array.pop()
+            element = element_array.join()
+         
           else
             element
           end
