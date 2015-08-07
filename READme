@@ -1,13 +1,13 @@
-# Word Counter
-##### A code revew project for Epicodus, 08.07.2015
+Word Counter
+A code revew project for Epicodus, 08.07.2015
 
-#### By Aileen Cacayorin
+By Aileen Cacayorin
 
-## Description
+Description
 
 _ Word Counter finds the number of times a word is repeated in a sentence. Enter a word and a sentence and Word Counter will display how many times the word is repeated.
 
-## Setup
+Setup
 
 Clone this repository.
 
@@ -24,7 +24,7 @@ Find the four digit port number
 Then open your web browser and go to "http://localhost:"" with the port number at the end of the url
 
 
-## Technologies Used
+Technologies Used
 
   HTML
   CSS
