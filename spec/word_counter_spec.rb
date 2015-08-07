@@ -19,4 +19,8 @@ describe ("String#word_counter") do
     expect("wood".word_counter("How much wood can a wood chuck, chuck?")).to(eq(2))
   end
 
+  it("can take a sentence as an argument and return how many times an object is repeated") do
+    expect("chuck".word_counter("How much wood can a wood chuck, chuck?")).to(eq(2))
+  end
+
 end
