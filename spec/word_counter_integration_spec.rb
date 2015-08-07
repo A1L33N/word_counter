@@ -9,6 +9,7 @@ describe("coin change path", {:type => :feature}) do
     visit('/')
     fill_in('word', :with => "sea")
     fill_in('sentence', :with => "The sea has lots of sea shells")
+    click_button('Count Words')
     expect(page).to have_content("2")
   end
 end
