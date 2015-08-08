@@ -23,4 +23,9 @@ describe ("String#word_counter") do
     expect("chuck".word_counter("How much wood can a wood chuck, chuck?")).to(eq(2))
   end
 
+  it("accounts for non-alphabetical characters") do
+    expect("day".word_counter("I am having the best f@%king day!!!! How is your day??!???")).to(eq(2))
+
+  end
+
 end
